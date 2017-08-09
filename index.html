@@ -1,30 +1,231 @@
 
+
 <!DOCTYPE html>
 <html>
-	<head>
-		<title>Valencia Girls</title>
-		<link rel="stylesheet" type="howdy" href="/howdy">
-	</head>
-	<body>
-		<nav>
-    		<ul>
-        		<li><a href="/">Home</a></li>
-	        	<li><a href="/about">About</a></li>
-        		<li><a href="/cv">CV</a></li>
-        		<li><a href="/blog">Blog</a></li>
-    		</ul>
-		</nav>
-		<div class="container">
-    		<div class="blurb">
-        		<h1>This is so frustrating</h1>
-				<p>I'm best known as the horrible cop from <em>A Touch of Evil</em> Don't trust me. <a href="/about">Read more about my life...</a></p>
-    		</div><!-- /.blurb -->
-		</div><!-- /.container -->
-		<footer>
-    		<ul>
-        		<li><a href="mailto:hankquinlanhub@gmail.com">email</a></li>
-        		<li><a href="https://github.com/hankquinlan">github.com/hankquinlan</a></li>
-			</ul>
-		</footer>
-	</body>
+<title>Valencia Girls</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+p,h3,a,p2{
+    font-size: 160%;
+}
+body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif;}
+body, html {
+    height: 100%;
+    color: black;
+    line-height: 2.0;
+}
+/* First image (Logo. Full height) */
+.bgimg-1 {
+    background-image: url('http://www.powerpointhintergrund.com/uploads/2017/05/gradients-simple-background-light-colorful-abstract-4.jpeg');
+    min-height: 90%;
+}
+/* Second image (Portfolio) */
+.bgimg-2 {
+    background-image: url("http://www.powerpointhintergrund.com/uploads/2017/05/gradients-simple-background-light-colorful-abstract-4.jpeg");
+    min-height: 400px;
+}
+/* Third image (Contact) */
+.bgimg-3 {
+    background-image: url("http://www.powerpointhintergrund.com/uploads/2017/05/gradients-simple-background-light-colorful-abstract-4.jpeg");
+    min-height: 400px;
+}
+.w3-wide {letter-spacing: 10px;}
+.w3-hover-opacity {cursor: pointer;}
+/* Turn off parallax scrolling for tablets and phones */
+@media only screen and (max-device-width: 1024px) {
+    .bgimg-1, .bgimg-2, .bgimg-3 {
+        background-attachment: scroll;
+    }
+}
+.active a {
+  background-color: white;
+}
+</style>
+<body>
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar" id="myNavbar">
+    <a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
+      <i class="fa fa-bars"></i>
+    </a>
+    <div class="active"><a href="/" class="w3-bar-item w3-button">||HOME||</a></div>
+    <a href="/volunteering/" class="w3-bar-item w3-button w3-hide-small"><i class=></i> VOLUNTEER</a>
+    <a href="/scholarships" class="w3-bar-item w3-button w3-hide-small"><i class=></i> SCHOLARSHIPS</a>
+    <a href="/internships" class="w3-bar-item w3-button w3-hide-small"><i class=></i> INTERNSHIPS</a>
+    <a href="/programs" class="w3-bar-item w3-button w3-hide-small"><i class=></i> PROGRAMS</a>
+    <a href="/advice" class="w3-bar-item w3-button w3-hide-small"><i class=></i> ADVICE</a>
+
+    </a>
+  </div>
+
+  <!-- Navbar on small screens -->
+  <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
+    <a href="/volunteering/" class="w3-bar-item w3-button" onclick="toggleFunction()">VOLUNTEER</a>
+    <a href="/scholarships" class="w3-bar-item w3-button" onclick="toggleFunction()">SCHOLARSHIPS</a>
+    <a href="/internships" class="w3-bar-item w3-button" onclick="toggleFunction()">INTERNSHIPS</a>
+    <a href="/programs" class="w3-bar-item w3-button" onclick="toggleFunction()">PROGRAMS</a>
+    <a href="/advice" class="w3-bar-item w3-button" onclick="toggleFunction()">ADVICE</a>
+    
+
+
+  </div>
+</div> 
+</div>
+<!-- First Parallax Image with Logo Text -->
+<div class="bgimg-1 w3-display-container w3-opacity-min" id="home">
+  <div class="w3-display-middle" <style =font-size: 400%;>
+    <span class="w3-center w3-padding-large w3-xlarge w3-wide w3-animate-opacity"> <span class="w3-hide-small"
+  <div class="w3-display-middle;display: inline;">
+
+
+
+
+<span class="w3-xxxlarge w3-text-white w3-wide;">VALENCIA GIRLS</span>
+
+  </div>
+</div>
+
+
+
+<!-- Container (About Section) -->
+<div class="w3-content w3-container w3-padding-64" id="about">
+  <h3 class="w3-center">••• Our Mission •••</h3>
+  <p class="w3-center"></p>
+  <center><p>Valencia Girls was created in order to empower female high school students to get involved in various opportunities and receive helpful tips! We believe that all girls embody the Latin meaning of "Valencia": strength, power, and bravery!</p></center>
+  <br> </br>
+
+
+
+
+  <style>.img-circle {
+    border-radius: 50%;</style>
+   <p><center>
+   <img
+          class="img-circle"
+          src="http://i.imgur.com/6pj5u4K.png"
+          alt="some_text"
+          style="width:228px;height:228px;">
+          <img
+          class="img-circle"
+          src="http://i.imgur.com/EIxvJXy.png"
+          alt="some_text"
+          style="width:228px;height:228px;">
+          <img
+          class="img-circle"
+          src="http://i.imgur.com/65UpIa4.png"
+          alt="some_text"
+          style="width:228px;height:228px;">
+          </center></p>
+         <center> <p>• Janet Urias •-----• Jordan Hackman •-----• Lily Forman •</p>
+</style>
+    </div>
+  </div>
+  <p class="w3-large w3-center w3-padding-16"><a href="http://www.esa.doc.gov/sites/default/files/womeninstemagaptoinnovation8311.pdf">Women in STEM:</p></a>
+  <div class="w3-light-grey">
+    <div class="w3-container w3-padding-small w3-red w3-center" style="width:20%">24%</div>
+  </div>
+  <p2> <center>This is why we felt it was necessary to focus on females.</center></p2>
+  <center><p>Girls are often overlooked and are lacking exposure to several opportunities. We wanted girls to have a reliable resource, provided by people they can relate to.</p></center>
+<!-- Second Parallax Image with Portfolio Text -->
+<div class="bgimg-2 w3-display-container w3-opacity-min">
+  <div class="w3-display-middle">
+    <span class="w3-xxlarge w3-text-white w3-wide">INSPIRATION</span>
+  </div>
+</div>
+<!-- Container (Portfolio Section) -->
+<div class="w3-content w3-container w3-padding-64" id="portfolio">
+  <h3 class="w3-center">OUR SUMMER</h3>
+  <p class="w3-center"><em>Here are some of things we got to do through the Girls Who Code Summer Immersion Program at Twitter Headquarters:</em></p><br>
+  <!-- Responsive Grid. Four columns on tablets, laptops and desktops. Will stack on mobile devices/small screens (100% width) -->
+  <div class="w3-row-padding w3-center">
+    <div class="w3-col m3">
+      <img src="https://pbs.twimg.com/media/DGF7R77UAAAztbr.jpg:large" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="meeting Jack Dorsey">
+    </div>
+    <div class="w3-col m3">
+      <img src="http://i.imgur.com/BREStfH.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="#TwitterAviator">
+    </div>
+    <div class="w3-col m3">
+      <img src="http://i.imgur.com/ybTI6s2.jpg?1" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="listening to a panel of women in tech">
+    </div>
+    <div class="w3-col m3">
+      <img src="http://i.imgur.com/HDwPBsk.jpg?1" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="working on our final project">
+    </div>
+  </div>
+  <div class="w3-row-padding w3-center w3-section">
+    <div class="w3-col m3">
+      <img src="http://i.imgur.com/5ppcRry.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="observing new technology at Twitter">
+    </div>
+    <div class="w3-col m3">
+      <img src="http://i.imgur.com/kmJOFjV.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="seeing the insides of a server">
+    </div>
+    <div class="w3-col m3">
+      <img src="http://i.imgur.com/k3etJyS.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="creating an LED light show by programming robots">
+    </div>
+    <div class="w3-col m3">
+      <img src="http://i.imgur.com/VzkmOqQ.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="networking with Twitter employees">
+    </div>
+    <br>
+    <br>
+    <br>
+    <button class="w3-padding-large w3-wide w3-black" style="margin-top:64px">CLICK IMAGE FOR FULL SIZE
+  </div><center><p>It's opportunities like this that we want all girls to be aware of!</p></center>
+</div>
+<!-- Modal for full size images on click-->
+<div id="modal01" class="w3-modal w3-black" onclick="this.style.display='none'">
+  <span class="w3-button w3-large w3-black w3-display-topright" title="Close Modal Image"><i class="fa fa-remove"></i></span>
+  <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+    <img id="img01" class="w3-image">
+    <p id="caption" class="w3-opacity w3-large"></p>
+  </div>
+</div>
+<!-- Third Parallax Image with Portfolio Text -->
+<div class="bgimg-3 w3-display-container w3-opacity-min">
+  <div class="w3-display-middle">
+     <span class="w3-xxlarge w3-text-white w3-wide">CONTACT</span>
+  </div>
+</div>
+<!-- Footer -->
+<footer class="w3-center w3-black w3-padding-64 w3-opacity w3-hover-opacity-off">
+  <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
+  <div class="w3-xlarge w3-section">
+  <div> contactvalenciagirls@gmail.com <br>
+    <a href="https://twitter.com/Valenciagirlss?lang=en"><i class="fa fa-twitter w3-hover-opacity"></a></i>
+  </div>
+</footer>
+<!-- Add Google Maps -->
+<script>
+// Modal Image Gallery
+function onClick(element) {
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal01").style.display = "block";
+  var captionText = document.getElementById("caption");
+  captionText.innerHTML = element.alt;
+}
+// Change style of navbar on scroll
+window.onscroll = function() {myFunction()};
+function myFunction() {
+    var navbar = document.getElementById("myNavbar");
+    if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+        navbar.className = "w3-bar" + " w3-card-2" + " w3-animate-top" + " w3-white";
+    } else {
+        navbar.className = navbar.className.replace(" w3-card-2 w3-animate-top w3-white", "");
+    }
+}
+// Used to toggle the menu on small screens when clicking on the menu button
+function toggleFunction() {
+    var x = document.getElementById("navDemo");
+    if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+    } else {
+        x.className = x.className.replace(" w3-show", "");
+    }
+}
+</script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBu-916DdpKAjTmJNIgngS6HL_kDIKU0aU&callback=myMap"></script>
+</body>
 </html>
